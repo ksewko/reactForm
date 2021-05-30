@@ -1,0 +1,64 @@
+* {
+    font-size: 20px;
+  }
+  
+  body {
+    height: 100vh;
+    
+    background-color: #333;
+    
+  }
+  
+  label {
+      margin: 10px;
+      color:white;
+  }
+
+  form {
+    display: absolute;
+  }
+
+  .form-file {
+      margin: 10px;
+      padding: 10px;
+      
+  }
+
+  .sub-button {
+    margin: 0 30px;
+    padding: 10px 30px;
+    background: none;
+    border-radius: 5px;
+    border: 2px solid #00cfff;
+    color: #00cfff;
+    -webkit-box-shadow: 3px 3px 10px #00cfff;
+            box-shadow: 3px 3px 10px #00cfff;
+    -webkit-transition: color .3s, -webkit-box-shadow .3s;
+    transition: color .3s, -webkit-box-shadow .3s;
+    transition: color .3s, box-shadow .3s;
+    transition: color .3s, box-shadow .3s, -webkit-box-shadow .3s;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  .sub-button:hover {
+    color: #00ffae;
+    background-color: rgb(75, 75, 75);
+    -webkit-box-shadow: 3px 3px 10px #00ffae;
+            box-shadow: 3px 3px 10px #00ffae;
+  }
+
+  .text-input {
+    border-radius: 5px;
+  }
+
+  h2 {
+    color: #00cfff;
+  }
+
+  Rating {
+      color: #00cfff;;
+  }
+  /* div {
+      margin: 10px;
+  } */
